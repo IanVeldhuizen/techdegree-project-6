@@ -1,29 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Project 6 Video player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/mediaelement-and-player.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/mediaelementplayer.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    
 </head>
 <body>
-    
+    <div class="wrapper">
     <div class="videoCard">
-        <video class="mejs__player">
+        <video id="myVideo" class="mejs__player" style="width: 100%; height: 100%;" preload="auto">
             <source src="video/video.mp4" type="video/mp4">
             <source src="video/video.ogg" type="video/ogg">
         </video>   
     </div>
+    </div>
 
     <div class="textCard">
+        
         <p>
-            TRANSCRIPT goes here!
+            <!-- 1 -->
+            <span data-start="0.240" data-end="4.130" class="text">Now that we've looked at the architecture of the internet, let's see how you might</span>
+            <!-- 2 -->
+            <span data-start="4.130" data-end="7.535" class="text">connect your personal devices to the internet inside your house.</span>
+            <!-- 3 -->
+            <span data-start="7.535" data-end="11.270" class="text">Well there are many ways to connect to the internet, and</span>
+            <!-- 3 -->
+            <span data-start="11.270" data-end="13.960" class="text">Well there are many ways to connect to the internet, and</span>
+            <!-- 4 -->
+            <span data-start="13.960" data-end="17.940" class="text">most often people connect wirelessly.</span>
+        </p>
+        
+        <p>
+            <!-- 5 -->
+            <span data-start="17.940" data-end="22.370" class="text">Let's look at an example of how you can connect to the internet.</span>
+            <!-- 6 -->
+            <span data-start="22.370" data-end="26.880" class="text">If you live in a city or a town, you probably have a coaxial cable for</span>
+            <!-- 7 -->
+            <span data-start="26.880" data-end="30.920" class="text">cable Internet, or a phone line if you have DSL, running to the outside of</span>
+            <!-- 8 -->
+            <span data-start="30.920" data-end="34.730" class="text">your house, that connects you to the Internet Service Provider, or ISP.</span>
+            <!-- 9 -->
+            <span data-start="34.730" data-end="39.430" class="text">If you live far out in the country, you'll more likely have</span>
+            <!-- 10 -->
+            <span data-start="39.430" data-end="41.190" class="text">a dish outside your house, connecting you wirelessly to your closest ISP, or</span>
+            <!-- 11 -->
+            <span data-start="41.190" data-end="46.300" class="text">you might also use the telephone system.</span>     
+        </p>
+
+        <p>
+            <!-- 12 -->
+            <span data-start="46.300" data-end="49.270
+            " class="text">Whether a wire comes straight from the ISP hookup outside your house, or</span>
+            <!-- 13 -->
+            <span data-start="49.270
+            " data-end="53.760
+            " class="text">it travels over radio waves from your roof,</span>
+            <!-- 14 -->
+            <span data-start="53.760
+            " data-end="57.780" class="text">the first stop a wire will make once inside your house, is at your modem.</span>
+            <!-- 15 -->
+            <span data-start="57.780" data-end="1.00.150" class="text">A modem is what connects the internet to your network at home.</span>
+            <!-- 16 -->
+            <span data-start="" data-end="" class="text">A few common residential modems are DSL or</span>
         </p>
     </div>
+
+
 </body>
 </html>
